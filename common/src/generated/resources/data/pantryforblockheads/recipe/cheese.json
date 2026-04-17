@@ -1,0 +1,9 @@
+{
+  "type": "pantryforblockheads:artisan_press",
+  "ingredient": "minecraft:milk_bucket",
+  "results": [
+    {
+      "id": "pantryforblockheads:cheese"
+    }
+  ]
+}

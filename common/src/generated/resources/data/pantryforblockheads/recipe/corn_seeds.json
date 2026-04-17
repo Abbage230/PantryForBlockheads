@@ -1,0 +1,12 @@
+{
+  "type": "pantryforblockheads:artisan_press",
+  "ingredient": "pantryforblockheads:corn",
+  "results": [
+    {
+      "id": "pantryforblockheads:corn_seeds"
+    },
+    {
+      "id": "pantryforblockheads:mashed_produce"
+    }
+  ]
+}

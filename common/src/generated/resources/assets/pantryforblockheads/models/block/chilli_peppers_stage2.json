@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "pantryforblockheads:block/chilli_peppers_stage2"
+  }
+}

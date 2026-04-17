@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#minecraft:eggs",
+    "minecraft:milk_bucket",
+    "minecraft:sugar",
+    "minecraft:wheat",
+    "pantryforblockheads:frying_pan",
+    "pantryforblockheads:mixing_bowl",
+    "pantryforblockheads:chocolate"
+  ],
+  "result": {
+    "id": "pantryforblockheads:chocolate_doughnut"
+  }
+}

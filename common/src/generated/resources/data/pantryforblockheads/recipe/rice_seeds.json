@@ -1,0 +1,12 @@
+{
+  "type": "pantryforblockheads:artisan_press",
+  "ingredient": "pantryforblockheads:rice",
+  "results": [
+    {
+      "id": "pantryforblockheads:rice_seeds"
+    },
+    {
+      "id": "pantryforblockheads:mashed_produce"
+    }
+  ]
+}

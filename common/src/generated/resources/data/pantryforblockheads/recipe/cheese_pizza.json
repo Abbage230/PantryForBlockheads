@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "pantryforblockheads:flatbread",
+    "pantryforblockheads:tomato",
+    "pantryforblockheads:cheese"
+  ],
+  "result": {
+    "id": "pantryforblockheads:cheese_pizza"
+  }
+}

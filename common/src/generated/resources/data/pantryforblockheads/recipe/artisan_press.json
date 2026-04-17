@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": "minecraft:anvil",
+    "B": "minecraft:mud_bricks",
+    "C": "minecraft:iron_chain",
+    "P": "minecraft:heavy_weighted_pressure_plate",
+    "W": "#minecraft:planks"
+  },
+  "pattern": [
+    "WCW",
+    "WAW",
+    "BPB"
+  ],
+  "result": {
+    "id": "pantryforblockheads:artisan_press"
+  }
+}

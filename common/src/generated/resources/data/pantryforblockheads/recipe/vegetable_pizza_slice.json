@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "pantryforblockheads:vegetable_pizza",
+    "pantryforblockheads:knife"
+  ],
+  "result": {
+    "count": 8,
+    "id": "pantryforblockheads:vegetable_pizza_slice"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "pantryforblockheads:mixing_bowl",
+    "minecraft:cocoa_beans",
+    "minecraft:sugar"
+  ],
+  "result": {
+    "id": "pantryforblockheads:chocolate"
+  }
+}

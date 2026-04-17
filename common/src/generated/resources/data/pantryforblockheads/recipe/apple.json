@@ -1,0 +1,12 @@
+{
+  "type": "pantryforblockheads:artisan_press",
+  "ingredient": "minecraft:golden_apple",
+  "results": [
+    {
+      "id": "minecraft:apple"
+    },
+    {
+      "id": "pantryforblockheads:magic_sprinkles"
+    }
+  ]
+}

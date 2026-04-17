@@ -1,0 +1,12 @@
+{
+  "type": "pantryforblockheads:artisan_press",
+  "ingredient": "pantryforblockheads:chili_pepper",
+  "results": [
+    {
+      "id": "pantryforblockheads:chili_pepper_seeds"
+    },
+    {
+      "id": "pantryforblockheads:mashed_produce"
+    }
+  ]
+}

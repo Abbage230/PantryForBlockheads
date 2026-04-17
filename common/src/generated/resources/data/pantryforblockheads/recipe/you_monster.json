@@ -1,0 +1,12 @@
+{
+  "type": "pantryforblockheads:artisan_press",
+  "ingredient": "minecraft:dried_ghast",
+  "results": [
+    {
+      "id": "minecraft:ghast_tear"
+    },
+    {
+      "id": "minecraft:bone_meal"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "pantryforblockheads:magic_sprinkles",
+    "minecraft:cookie",
+    "minecraft:paper"
+  ],
+  "result": {
+    "id": "pantryforblockheads:fortune_cookie"
+  }
+}

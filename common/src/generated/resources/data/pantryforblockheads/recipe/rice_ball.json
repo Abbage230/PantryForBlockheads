@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "pantryforblockheads:rice",
+    "minecraft:kelp"
+  ],
+  "result": {
+    "count": 3,
+    "id": "pantryforblockheads:rice_ball"
+  }
+}

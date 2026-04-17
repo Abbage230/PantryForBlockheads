@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "pantryforblockheads:rice",
+    "#pantryforblockheads:any_sushi_filling",
+    "minecraft:kelp",
+    "pantryforblockheads:knife"
+  ],
+  "result": {
+    "count": 6,
+    "id": "pantryforblockheads:maki_sushi"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:snowball",
+    "minecraft:wheat",
+    "pantryforblockheads:chocolate"
+  ],
+  "result": {
+    "id": "pantryforblockheads:chocolate_icecream"
+  }
+}

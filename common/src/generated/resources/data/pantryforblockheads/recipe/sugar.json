@@ -1,0 +1,9 @@
+{
+  "type": "pantryforblockheads:artisan_press",
+  "ingredient": "minecraft:sugar_cane",
+  "results": [
+    {
+      "id": "minecraft:sugar"
+    }
+  ]
+}

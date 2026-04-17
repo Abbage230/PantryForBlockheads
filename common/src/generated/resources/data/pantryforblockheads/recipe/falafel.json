@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "pantryforblockheads:soybean",
+    "pantryforblockheads:cauliflower",
+    "pantryforblockheads:bell_pepper",
+    "pantryforblockheads:mixing_bowl"
+  ],
+  "result": {
+    "id": "pantryforblockheads:falafel"
+  }
+}

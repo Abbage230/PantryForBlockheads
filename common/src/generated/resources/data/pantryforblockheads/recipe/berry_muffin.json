@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#minecraft:eggs",
+    "minecraft:milk_bucket",
+    "minecraft:sugar",
+    "minecraft:wheat",
+    "pantryforblockheads:baking_sheet",
+    "pantryforblockheads:mixing_bowl",
+    "#pantryforblockheads:any_berry"
+  ],
+  "result": {
+    "count": 2,
+    "id": "pantryforblockheads:berry_muffin"
+  }
+}

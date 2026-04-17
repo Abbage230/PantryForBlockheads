@@ -1,0 +1,9 @@
+{
+  "type": "pantryforblockheads:artisan_press",
+  "ingredient": "minecraft:rotten_flesh",
+  "results": [
+    {
+      "id": "minecraft:leather"
+    }
+  ]
+}

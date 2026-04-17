@@ -1,0 +1,12 @@
+{
+  "type": "pantryforblockheads:artisan_press",
+  "ingredient": "pantryforblockheads:turnip",
+  "results": [
+    {
+      "id": "pantryforblockheads:turnip_seeds"
+    },
+    {
+      "id": "pantryforblockheads:mashed_produce"
+    }
+  ]
+}

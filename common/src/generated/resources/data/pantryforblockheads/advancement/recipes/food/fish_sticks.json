@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_edible_fishes": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#pantryforblockheads:any_edible_raw_fish"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "pantryforblockheads:fish_sticks"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_edible_fishes"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "pantryforblockheads:fish_sticks"
+    ]
+  }
+}

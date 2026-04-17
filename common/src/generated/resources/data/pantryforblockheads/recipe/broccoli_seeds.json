@@ -1,0 +1,12 @@
+{
+  "type": "pantryforblockheads:artisan_press",
+  "ingredient": "pantryforblockheads:broccoli",
+  "results": [
+    {
+      "id": "pantryforblockheads:broccoli_seeds"
+    },
+    {
+      "id": "pantryforblockheads:mashed_produce"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "pantryforblockheads:block/bell_peppers_stage1"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "pantryforblockheads:frying_pan",
+    "pantryforblockheads:knife",
+    "minecraft:porkchop"
+  ],
+  "result": {
+    "id": "pantryforblockheads:bacon"
+  }
+}

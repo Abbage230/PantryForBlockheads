@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "pantryforblockheads:sausage",
+    "minecraft:bread",
+    "pantryforblockheads:knife"
+  ],
+  "result": {
+    "id": "pantryforblockheads:hotdog"
+  }
+}

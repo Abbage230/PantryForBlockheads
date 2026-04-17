@@ -1,0 +1,12 @@
+{
+  "type": "pantryforblockheads:artisan_press",
+  "ingredient": "minecraft:poisonous_potato",
+  "results": [
+    {
+      "id": "minecraft:potato"
+    },
+    {
+      "id": "minecraft:slime_ball"
+    }
+  ]
+}

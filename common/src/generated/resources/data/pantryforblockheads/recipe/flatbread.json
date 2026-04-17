@@ -1,0 +1,9 @@
+{
+  "type": "pantryforblockheads:artisan_press",
+  "ingredient": "minecraft:bread",
+  "results": [
+    {
+      "id": "pantryforblockheads:flatbread"
+    }
+  ]
+}

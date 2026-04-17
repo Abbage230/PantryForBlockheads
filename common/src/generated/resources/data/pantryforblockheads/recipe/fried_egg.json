@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#minecraft:eggs",
+    "pantryforblockheads:frying_pan"
+  ],
+  "result": {
+    "id": "pantryforblockheads:fried_egg"
+  }
+}

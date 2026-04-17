@@ -1,0 +1,12 @@
+{
+  "type": "pantryforblockheads:artisan_press",
+  "ingredient": "minecraft:experience_bottle",
+  "results": [
+    {
+      "id": "minecraft:glass_bottle"
+    },
+    {
+      "id": "pantryforblockheads:magic_sprinkles"
+    }
+  ]
+}

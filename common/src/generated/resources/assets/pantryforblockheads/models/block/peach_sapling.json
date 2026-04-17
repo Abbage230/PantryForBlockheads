@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "pantryforblockheads:block/peach_sapling"
+  }
+}

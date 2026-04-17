@@ -1,0 +1,73 @@
+{
+  "type": "minecraft:empty",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "chance": 0.125,
+          "condition": "minecraft:random_chance"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pantryforblockheads:bell_pepper_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pantryforblockheads:broccoli_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pantryforblockheads:cauliflower_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pantryforblockheads:chili_pepper_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pantryforblockheads:corn_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pantryforblockheads:eggplant_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pantryforblockheads:lettuce_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pantryforblockheads:onion_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pantryforblockheads:peanut_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pantryforblockheads:strawberry_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pantryforblockheads:tomato_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pantryforblockheads:turnip_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pantryforblockheads:rice_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pantryforblockheads:soybean_seeds"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

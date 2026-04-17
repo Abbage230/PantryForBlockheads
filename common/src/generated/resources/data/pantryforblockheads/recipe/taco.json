@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "pantryforblockheads:flatbread",
+    "pantryforblockheads:soybean",
+    "pantryforblockheads:corn",
+    "pantryforblockheads:lettuce"
+  ],
+  "result": {
+    "id": "pantryforblockheads:taco"
+  }
+}

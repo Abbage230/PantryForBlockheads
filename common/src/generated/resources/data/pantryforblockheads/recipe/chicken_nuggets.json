@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:cooked_chicken",
+    "minecraft:wheat",
+    "pantryforblockheads:knife",
+    "pantryforblockheads:frying_pan"
+  ],
+  "result": {
+    "count": 6,
+    "id": "pantryforblockheads:chicken_nuggets"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_onion": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pantryforblockheads:onion"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "pantryforblockheads:onion_rings"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_onion"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "pantryforblockheads:onion_rings"
+    ]
+  }
+}

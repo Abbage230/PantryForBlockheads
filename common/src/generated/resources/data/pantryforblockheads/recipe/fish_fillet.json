@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#pantryforblockheads:any_edible_raw_fish",
+    "pantryforblockheads:knife",
+    "pantryforblockheads:frying_pan"
+  ],
+  "result": {
+    "id": "pantryforblockheads:fish_fillet"
+  }
+}
