@@ -32,7 +32,7 @@ public class ModItems {
         knife = items.register("knife", PantryUtensilItem::new).asDeferredItem();
         magicSprinkles = items.register("magic_sprinkles", Item::new).asDeferredItem();
 
-        crops = items.registerDiscriminated(CropType.values(), CropType::getSerializedName, (_, properties) -> new Item(properties), (type, it) -> it.food(type.foodProperties())).asDiscriminatedItems();
+        crops = items.registerDiscriminated(CropType.values(), CropType::getSerializedName, (_, properties) -> new Item(properties), CropType::applyProperties).asDiscriminatedItems();
         fruits = items.registerDiscriminated(TreeType.values(), Enum::toString, (_, properties) -> new Item(properties), (type, it) -> it.food(type.foodProperties())).asDiscriminatedItems();
         meals = items.registerDiscriminated(MealType.values(), MealType::getSerializedName, (_, properties) -> new Item(properties), MealType::applyProperties).asDiscriminatedItems();
 

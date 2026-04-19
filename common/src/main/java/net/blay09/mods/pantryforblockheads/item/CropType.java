@@ -4,6 +4,7 @@ import com.mojang.serialization.Codec;
 import com.mojang.serialization.DataResult;
 import net.minecraft.util.StringRepresentable;
 import net.minecraft.world.food.FoodProperties;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
 import org.jspecify.annotations.Nullable;
@@ -13,6 +14,7 @@ import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Set;
+import java.util.function.Function;
 
 public final class CropType implements StringRepresentable, Comparable<CropType> {
     private static final IntegerProperty DEFAULT_AGE_PROPERTY = BlockStateProperties.AGE_3;
@@ -43,12 +45,14 @@ public final class CropType implements StringRepresentable, Comparable<CropType>
     private final String plural;
     private final IntegerProperty ageProperty;
     private final int maxAge;
+    private Function<Item.Properties, Item.Properties> propertiesBuilder;
 
     private CropType(String serializedName, String plural, IntegerProperty ageProperty, int maxAge) {
         this.serializedName = serializedName;
         this.plural = plural;
         this.ageProperty = ageProperty;
         this.maxAge = maxAge;
+        propertiesBuilder = it -> it.food(new FoodProperties.Builder().nutrition(1).saturationModifier(0.1f).build());
     }
 
     private static CropType register(String serializedName, String plural) {
@@ -62,6 +66,11 @@ public final class CropType implements StringRepresentable, Comparable<CropType>
             throw new IllegalStateException("Duplicate CropType registration: " + serializedName);
         }
         return cropType;
+    }
+
+    public CropType overrideProperties(Function<Item.Properties, Item.Properties> propertiesBuilder) {
+        this.propertiesBuilder = propertiesBuilder;
+        return this;
     }
 
     public static Set<CropType> values() {
@@ -82,8 +91,8 @@ public final class CropType implements StringRepresentable, Comparable<CropType>
         return serializedName;
     }
 
-    public FoodProperties foodProperties() {
-        return new FoodProperties.Builder().nutrition(1).saturationModifier(0.1f).build();
+    public Item.Properties applyProperties(Item.Properties it) {
+        return propertiesBuilder.apply(it);
     }
 
     public String plural() {
