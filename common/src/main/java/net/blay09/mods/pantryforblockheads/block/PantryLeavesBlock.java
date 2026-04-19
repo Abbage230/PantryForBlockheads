@@ -38,7 +38,7 @@ public class PantryLeavesBlock extends UntintedParticleLeavesBlock {
         super.randomTick(state, level, pos, random);
         final var age = getAge(state);
         if (!isMaxAge(state)) {
-            float growthSpeed = getGrowthSpeed(this, level, pos);
+            float growthSpeed = getGrowthSpeed(this, state, level, pos);
             if (growthSpeed <= 0f) {
                 return;
             }
@@ -68,8 +68,7 @@ public class PantryLeavesBlock extends UntintedParticleLeavesBlock {
         return getAge(state) >= getMaxAge();
     }
 
-    private float getGrowthSpeed(PantryLeavesBlock type, ServerLevel level, BlockPos pos) {
-        final BlockState state = level.getBlockState(pos);
+    private float getGrowthSpeed(PantryLeavesBlock type, BlockState state, ServerLevel level, BlockPos pos) {
         if (state.getValue(PERSISTENT)) {
             return 0f;
         }
