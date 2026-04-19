@@ -5,6 +5,8 @@ import net.blay09.mods.pantryforblockheads.core.component.PinkDonutWithSprinkles
 import net.minecraft.util.StringRepresentable;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.component.Consumables;
 
 import java.util.*;
 import java.util.function.Function;
@@ -61,6 +63,8 @@ public final class MealType implements StringRepresentable, Comparable<MealType>
     public static final MealType VEGETABLE_PIZZA = register("vegetable_pizza", 10, 0.9f);
     public static final MealType VEGETABLE_PIZZA_SLICE = register("vegetable_pizza_slice", 1, 0.2f);
     public static final MealType WAFFLE = register("waffle", 6, 0.3f);
+    public static final MealType SOY_MILK = register("soy_milk", 2, 0.1f)
+            .overrideProperties(it -> it.food(new FoodProperties.Builder().nutrition(2).saturationModifier(0.1f).build(), Consumables.DEFAULT_DRINK).usingConvertsTo(Items.GLASS_BOTTLE));
 
     private final String serializedName;
     private final int nutrition;

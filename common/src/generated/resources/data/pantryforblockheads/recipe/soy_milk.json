@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "pantryforblockheads:soybean",
+    "minecraft:glass_bottle",
+    "minecraft:water_bucket"
+  ],
+  "result": {
+    "id": "pantryforblockheads:soy_milk"
+  }
+}

@@ -1,9 +1,12 @@
 {
   "type": "pantryforblockheads:artisan_press",
-  "ingredient": "pantryforblockheads:soybean",
+  "ingredient": "pantryforblockheads:soy_milk",
   "results": [
     {
       "id": "pantryforblockheads:tofu"
+    },
+    {
+      "id": "minecraft:glass_bottle"
     }
   ]
 }

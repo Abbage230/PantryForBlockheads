@@ -257,6 +257,13 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy("has_milk_bucket", has(Items.MILK_BUCKET))
                         .save(exporter);
 
+                shapeless(RecipeCategory.FOOD, items.meals.get(MealType.SOY_MILK))
+                        .requires(items.crops.get(CropType.SOYBEAN))
+                        .requires(Items.GLASS_BOTTLE)
+                        .requires(Items.WATER_BUCKET)
+                        .unlockedBy("has_soybean", has(items.crops.get(CropType.SOYBEAN)))
+                        .save(exporter);
+
                 shapeless(RecipeCategory.FOOD, items.meals.get(MealType.BAGEL))
                         .requires(Items.WHEAT)
                         .requires(Items.SUGAR)
@@ -459,8 +466,9 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
                 artisanPress(exporter,
                         ResourceKey.create(Registries.RECIPE, id("tofu")),
-                        Ingredient.of(items.crops.get(CropType.SOYBEAN)),
-                        new ItemStackTemplate(items.meals.get(MealType.TOFU).asItem()));
+                        Ingredient.of(items.meals.get(MealType.SOY_MILK)),
+                        new ItemStackTemplate(items.meals.get(MealType.TOFU).asItem()),
+                        new ItemStackTemplate(Items.GLASS_BOTTLE));
 
                 for (final var cropType : CropType.values()) {
                     artisanPress(exporter,
