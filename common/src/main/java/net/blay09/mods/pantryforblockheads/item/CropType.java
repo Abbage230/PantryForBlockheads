@@ -83,7 +83,7 @@ public final class CropType implements StringRepresentable, Comparable<CropType>
     }
 
     public FoodProperties foodProperties() {
-        return new FoodProperties.Builder().nutrition(1).saturationModifier(1f).build();
+        return new FoodProperties.Builder().nutrition(1).saturationModifier(0.1f).build();
     }
 
     public String plural() {
