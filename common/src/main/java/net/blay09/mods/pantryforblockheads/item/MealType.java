@@ -15,12 +15,12 @@ public final class MealType implements StringRepresentable, Comparable<MealType>
     private static final Map<String, MealType> REGISTRY = new LinkedHashMap<>();
 
     public static final MealType BACON = register("bacon", 6, 0.5f);
-    public static final MealType BAGEL = register("bagel", 5, 0.4f);
+    public static final MealType BAGEL = register("bagel", 4, 0.2f);
     public static final MealType BERRY_MUFFIN = register("berry_muffin", 3, 0.125f);
     public static final MealType BREADSTICK = register("breadstick", 1, 0.2f);
     public static final MealType BURGER = register("burger", 14, 1.4f);
     public static final MealType BURRITO = register("burrito", 10, 1f);
-    public static final MealType CHEESE = register("cheese", 2, 0.1f);
+    public static final MealType CHEESE = register("cheese", 3, 0.1f);
     public static final MealType CHEESE_PIZZA = register("cheese_pizza", 9, 0.8f);
     public static final MealType CHEESE_PIZZA_SLICE = register("cheese_pizza_slice", 1, 0.2f);
     public static final MealType CHICKEN_NUGGETS = register("chicken_nuggets", 1, 0.2f);
@@ -59,7 +59,7 @@ public final class MealType implements StringRepresentable, Comparable<MealType>
     public static final MealType SANDWICH = register("sandwich", 9, 0.9f);
     public static final MealType SAUSAGE = register("sausage", 3, 0.25f);
     public static final MealType TACO = register("taco", 9, 0.9f);
-    public static final MealType TOFU = register("tofu", 2, 0.1f);
+    public static final MealType TOFU = register("tofu", 3, 0.2f);
     public static final MealType VEGETABLE_PIZZA = register("vegetable_pizza", 10, 0.9f);
     public static final MealType VEGETABLE_PIZZA_SLICE = register("vegetable_pizza_slice", 1, 0.2f);
     public static final MealType WAFFLE = register("waffle", 6, 0.3f);
