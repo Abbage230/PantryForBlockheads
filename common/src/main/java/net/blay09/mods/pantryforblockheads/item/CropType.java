@@ -33,8 +33,10 @@ public final class CropType implements StringRepresentable, Comparable<CropType>
     public static final CropType STRAWBERRY = register("strawberry", "strawberries");
     public static final CropType TOMATO = register("tomato", "tomatoes");
     public static final CropType TURNIP = register("turnip", "turnips");
-    public static final CropType RICE = register("rice", "rice");
-    public static final CropType SOYBEAN = register("soybean", "soybeans");
+    public static final CropType RICE = register("rice", "rice")
+            .overrideProperties(it -> it);
+    public static final CropType SOYBEAN = register("soybean", "soybeans")
+            .overrideProperties(it -> it);
 
     public static final Codec<CropType> CODEC = Codec.STRING.comapFlatMap(serializedName -> {
         final var cropType = byName(serializedName);
